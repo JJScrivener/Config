@@ -12,29 +12,28 @@ separator_block_width=15
 
 [time]
 command=date '+%H:%M'
-interval=60
+interval=1
 
 [day]
 command=date '+%A'
-interval=60
+interval=1
 
 [date]
 command=date '+%B %d %Y'
-interval=60
+interval=1
 
 [battery]
 command=~/.config/i3blocks/blocklets/battery
-interval=60
-LABEL=BAT
+interval=1
+label=BAT
 
 [volume]
 command=~/.config/i3blocks/blocklets/volume
-LABEL=VOL
+label=VOL
 interval=once
 signal=10
 
 [wifi]
 command=~/.config/i3blocks/blocklets/wifi
 label=wifi:
-#INTERFACE=wlan0
-interval=60
+interval=1

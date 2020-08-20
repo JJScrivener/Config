@@ -49,7 +49,7 @@ URxvt.perl-ext:
 URxvt.perl-ext-common:
 
 !to reload run #xrdb ~/.Xresources 
-URxvt.font: xft:DejaVu Sans Mono:pixelsize=22
+URxvt.font: xft:DejaVu Sans Mono:pixelsize=12
 URxvt.scrollBar: off
 
 URxvt*background: #282C34
